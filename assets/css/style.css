@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: var(--color1);
+}
+
+body {
+    background-color: rgb(83, 79, 79);
+}
+
+:root {
+    --color1:#000000; 
+    --color2:#363636;
+    --color3:#A7A6A6;
+    --color4:#EEEEEE;
+    --color5:#080601;
+    --color6:#344538;
+    --color7:#1B2025;
+    --color8: rgb(173, 170, 170);
+}
+
+header {
+    width: 100dvw;
+    height: 7dvh;
+
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    height: 7dvh;
+    justify-content: space-between;
+    padding: 0.2rem 3rem;
+    align-items: center;
+}
+
+.navbar-name > h1 {
+    width: 50dvw;
+    font-size: 1.8rem;
+    background-color: transparent;
+}
+
+.navbar-shorts {
+    display: flex;
+    background-color: transparent;
+}
+
+.navbar-shorts > a {
+    padding: 0 1rem 0 1rem;
+}
+
+.socialMedia-imgs {
+    width: 3dvw;
+}
+
+main {
+    width: 100dvw;
+    height: 93dvh;
+}
+
+.apresentation {
+    display: flex;
+    width: 100dvw;
+    height: 40dvh;
+    padding: 1.5rem 3rem 0 3rem;
+}
+
+#profile-image {
+    width: 40dvw;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#profile-image > img {
+    width: 20dvw;
+    border-radius: 5px;
+}
+
+#apresentation-text {
+    text-align: justify;
+    width: 60dvw;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+ 
+#apresentation-text > p > label {
+    color: #b5b0b0;
+}
+
+#apresentation-text > p > label > a {
+    color: #b5b0b0;
+}
+
+#curiosity {
+    margin-top: 0.6dvh;
+    text-align: center;
+    font-size: 1.2rem;
+    height: 33dvh;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100dvw;
+    height: 30dvh;
+    padding: 1.5rem 3rem;
+}
+
+.card {
+    width: 30dvw;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.tecnologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100dvw;
+    height: 20dvh;
+    padding: 0.2rem 3rem;
+}
+
+.text-tecnologies {
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+.icons-tecnologies {
+    margin-top: 1dvh;
+    display: flex;
+    width: 100dvw;
+    justify-content: space-evenly;
+    padding: 2rem 1rem;
+}
+
+.tecnologies-imgs {
+    width: 3.5dvw;
+}
+
+a:hover {
+    background-color: #363636;
+    border-radius: 10px;
+}
